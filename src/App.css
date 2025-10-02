@@ -1,0 +1,43 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#root {
+    border: 0.25rem solid white;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+header {
+    background-color: #21222a;
+    color: #00D8FF;
+}
+
+img {
+    width: 40px;
+}
+
+span {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+main {
+    background-color: #282d35;
+    padding-bottom: 6rem !important;
+    background-image: url('./assets/react-logo-half.svg');
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    background-position-x: 140%;
+    background-size: 45%;
+}
+
+.facts-list li {
+    font-size: 1.2rem;
+    margin-block: 0.5rem;
+}
+
+.facts-list li::marker {
+    color: #00D8FF;
+    font-size: 2rem;
+}
